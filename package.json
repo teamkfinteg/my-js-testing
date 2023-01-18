@@ -1,0 +1,23 @@
+{
+  "name": "my-js-testing",
+  "version": "0.1.0",
+  "description": "Testing git actions with javascript",
+  "main": "index.js",
+  "scripts": {
+    "build" : "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamkfinteg/my-js-testing.git"
+  },
+  "author": "fiddlermikey",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/teamkfinteg/my-js-testing/issues"
+  },
+  "homepage": "https://github.com/teamkfinteg/my-js-testing#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.36.0"
+  }
+}
